@@ -41,7 +41,7 @@ class AuthenticatedSessionController extends Controller
                 case 'super_admin':
                     return redirect()->intended('/super-admin/dashboard');
                 default:
-                    return redirect()->intended('/warga/dashboard');
+                    return redirect()->intended('/dashboard');
             }
         }
 
